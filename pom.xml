@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.airlift</groupId>
+        <groupId>com.facebook.airlift</groupId>
         <artifactId>airbase</artifactId>
-        <version>69</version>
+        <version>104-SNAPSHOT</version>
     </parent>
 
     <artifactId>command</artifactId>
@@ -30,14 +30,14 @@
         <air.check.skip-spotbugs>true</air.check.skip-spotbugs>
         <air.check.skip-jacoco>true</air.check.skip-jacoco>
 
-        <dep.airlift.version>0.150</dep.airlift.version>
+        <dep.airlift.version>0.216-SNAPSHOT</dep.airlift.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>io.airlift</groupId>
+            <groupId>com.facebook.airlift</groupId>
             <artifactId>units</artifactId>
-            <version>1.0</version>
+            <version>1.4-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -58,14 +58,14 @@
         </dependency>
 
         <dependency>
-            <groupId>io.airlift</groupId>
+            <groupId>com.facebook.airlift</groupId>
             <artifactId>testing</artifactId>
             <version>${dep.airlift.version}</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
-            <groupId>io.airlift</groupId>
+            <groupId>com.facebook.airlift</groupId>
             <artifactId>concurrent</artifactId>
             <version>${dep.airlift.version}</version>
             <scope>test</scope>
