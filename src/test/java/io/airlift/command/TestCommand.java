@@ -24,8 +24,8 @@ import java.io.File;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import static io.airlift.concurrent.Threads.daemonThreadsNamed;
-import static io.airlift.testing.EquivalenceTester.equivalenceTester;
+import static com.facebook.airlift.concurrent.Threads.daemonThreadsNamed;
+import static com.facebook.airlift.testing.EquivalenceTester.equivalenceTester;
 import static java.util.concurrent.Executors.newCachedThreadPool;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotSame;
